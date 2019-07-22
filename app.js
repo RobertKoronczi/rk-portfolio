@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 const folder = path.join(__dirname, 'src');
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 3000;
 
 app.use(express.static(folder));
 
