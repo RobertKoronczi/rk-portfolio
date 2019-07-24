@@ -101,21 +101,6 @@ $(document).ready(function(e) {
 
 	$("[data-fancybox]").fancybox();
 
-	jQuery( function() {
-		// now doc is ready, make selection
-		// use another selector, not .isotope,
-		// since that is dynamically added in Isotope v1
-		var $container = jQuery('.items');
-		// use imagesLoaded, instead of window.load
-		$container.imagesLoaded( function() {
-			$container.isotope({
-				itemSelector: '.grid-item',
-				// masonry is default layoutMode, no need to specify it
-				sortBy: 'random'
-			});
-		})
-	});
-
 	// setup isotope
 
 	$("#filters a").click(function() {
@@ -125,13 +110,15 @@ $(document).ready(function(e) {
 
 		var selector = $(this).attr("data-filter");
 
-		$(".items").isotope({
-			filter: selector,
-			animationOptions: {
-				duration: 1500,
-				easing: 'linear',
-				queue: false
-			}
+		$(".items").imagesLoaded( function() {
+			$(".items").isotope({
+				filter: selector,
+				animationOptions: {
+					duration: 1500,
+					easing: 'linear',
+					queue: false
+				}
+				});
 		});
 
 		return false;
