@@ -35,13 +35,17 @@ function HU() {
 
     hu['skillsExpl'] = "Az egyes területeken szerzett ismereteim szemléltetése"; 
 
-    hu['skill1'] = "";
+    hu['skill1'] = "Nagyon jó ismeretek";
 
-    hu['skill2'] = "";
+    hu['skill2'] = "Haladó ismeretek";
 
-    hu['skill3'] = "";
+    hu['skill3'] = "A legtöbb webprojektemnél bevetésre került.";
 
-    hu['skill4'] = "";
+    hu['skill4'] = "Első tapasztalatok.";
+
+    hu['skill5'] = "Első tapasztalatok.";
+
+    hu['skill6'] = "Ezt a programozási nyelvet választottam az informatika érettségin.";
 
     hu['stat1'] = "hónapos tapasztalat";
 

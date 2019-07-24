@@ -45,7 +45,7 @@ function DE() {
 
     de['skill5'] = "Bereits erste Erfahrungen"; 
 
-    de['skill6'] = "Ich habe bei meinem Informatikabitur diese Programmiersprache gewöhlt"; 
+    de['skill6'] = "Ich habe bei meinem Informatikabitur diese Programmiersprache gewählt"; 
 
     de['stat1'] = "Monaten Erfahrung";
 
