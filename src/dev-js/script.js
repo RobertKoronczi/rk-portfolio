@@ -100,7 +100,7 @@ $(document).ready(function(e) {
 	});
 
 	$("[data-fancybox]").fancybox();
-
+	
 	// setup isotope
 
 	$("#filters a").click(function() {
@@ -110,15 +110,13 @@ $(document).ready(function(e) {
 
 		var selector = $(this).attr("data-filter");
 
-		$(".items").imagesLoaded( function() {
-			$(".items").isotope({
-				filter: selector,
-				animationOptions: {
-					duration: 1500,
-					easing: 'linear',
-					queue: false
-				}
-				});
+		$(".items").isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 1500,
+				easing: 'linear',
+				queue: false
+			}
 		});
 
 		return false;
