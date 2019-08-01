@@ -103,6 +103,20 @@ $(document).ready(function(e) {
 
 	// setup isotope
 
+    function iso(selector) {
+        $(".items").isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 1500,
+                easing: 'linear',
+                queue: false
+            }
+        });
+    }
+
+    // Calling isotope directly after pageload with all the elements
+    iso('*');
+
 	$("#filters a").click(function() {
 
 		$("#filters .current").removeClass("current");
@@ -110,14 +124,7 @@ $(document).ready(function(e) {
 
 		var selector = $(this).attr("data-filter");
 
-			$(".items").isotope({
-				filter: selector,
-				animationOptions: {
-					duration: 1500,
-					easing: 'linear',
-					queue: false
-				}
-			});
+		iso(selector);
 
 		return false;
 
@@ -183,18 +190,3 @@ $(document).ready(function(e) {
     });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
