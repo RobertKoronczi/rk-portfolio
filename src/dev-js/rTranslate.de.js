@@ -39,7 +39,7 @@ function DE() {
 
     de['skill2'] = "Erwiterte Kenntnisse"; 
 
-    de['skill3'] = "Bei meist von meinen Web-Projecten kam es zum Einsatz"; 
+    de['skill3'] = "Bei meist von meinen Web-Projekten kam es zum Einsatz"; 
 
     de['skill4'] = "Bereits erste Erfahrungen"; 
 
