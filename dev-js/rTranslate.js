@@ -29,7 +29,8 @@
             return this; // make the functions chainable this by returning 'this'
         },
 
-        // Setting the language by the selection DOM elements id tag
+        // input: the id of the selection tag in the html file
+        // output: the content will be translated on the dom
         setLanguage: function( selectionID ) {
 
             var selection  = document.querySelector( selectionID );
@@ -38,7 +39,7 @@
 
             var resources = languages[ selectedID ];
 
-            var options = selectAsArray( 'option[name="translate"]' );
+            var options = selectAsArray( 'option[data-rT="rT"]' );
             
             var id = [];
                 id = options.map( function( el ) { return el.id; } );
@@ -49,12 +50,12 @@
             var ddlabel = selectAsArray( '.ddlabel' );
 
             ddlabel.forEach( function( el, i ) {
-                el.setAttribute('name', 'translate');
+                el.setAttribute('data-rT', 'rT');
                 el.setAttribute('caption', id[i-1]);
             } );   
 
             // Selecting and changing the translatable contents in the DOM
-            var translatable = selectAsArray( '[name="translate"]' );
+            var translatable = selectAsArray( '[data-rT="rT"]' );
 
             translatable.forEach( function( el ) { 
 
