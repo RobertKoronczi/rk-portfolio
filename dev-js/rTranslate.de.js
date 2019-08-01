@@ -21,7 +21,9 @@ function DE() {
 
     de['stats'] = "Erfahrungen"; 
 
-    de['portfolio'] = "Portfolio"; 
+    de['portfolio'] = "Portfolio";
+    
+    de['portfolioTitle'] = "PORTFOLIO";
 
     de['aboutTitle'] = "Ich heiße Robert Koronczi"; 
 
