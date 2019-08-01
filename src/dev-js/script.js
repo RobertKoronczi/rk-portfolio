@@ -139,7 +139,7 @@ $(document).ready(function(e) {
 
 	function stickyNavigation() {
 
-		const body = $("body");
+		const body = $("html, body");
 
 		if($(window).scrollTop() >= navTop) {
 			body.css("padding-top", nav.outerHeight() + "px");

@@ -24,11 +24,11 @@ margin:0
 }
 .slides-navigation a.prev {
     left: 20px;
-    background-image: url(../img/icons/prev.png)
+    background-image: url(../img/icons/prev.-min.png)
 }
 .slides-navigation a.next {
     right: 20px;
-    background-image: url(../img/icons/next.png)
+    background-image: url(../img/icons/next.-min.png)
 }
 .titleMessage {
     position: absolute;
@@ -284,7 +284,7 @@ margin:0
     -transition: all .2s linear, .2s
 }
 .navbar-toggler-icon {
-    background: url(../img/icons/menu.png);
+    background: url(../img/icons/menu.-min.png);
     background-size: 100%
 }
 .fixedNav #navigation {
