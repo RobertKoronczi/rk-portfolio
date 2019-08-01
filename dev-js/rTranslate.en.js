@@ -20,9 +20,11 @@ function EN() {
 
     en['stats'] = "Stats"; 
 
-    de['portfolioTitle'] = "PORTFOLIO";
+    en['portfolioTitle'] = "PORTFOLIO";
 
-    de['statsTitle'] = "STATS";
+    en['statsTitle'] = "STATS";
+
+    en['contactTitle'] = "KONTAKT"; 
 
     en['portfolio'] = "Portfolio"; 
 

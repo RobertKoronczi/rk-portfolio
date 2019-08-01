@@ -27,6 +27,8 @@ function DE() {
 
     de['statsTitle'] = "ERFAHRUNGEN";
 
+    de['contactTitle'] = "KONTAKT"; 
+
     de['aboutTitle'] = "Ich heiße Robert Koronczi"; 
 
     de['aboutText1'] = "Als ich noch die Fachmittelschule besuchte, interessierte ich mich schon für die Programmierung und wie man den Quellcode verstehen und schreiben lernt. Mich begeisterte es besonders, dass ich durch meine Kenntnisse der Sprache Pascal auch in Mathematik zu nutze machen konnte um interessante, fakultative geometrische Aufgaben zu lösen.";

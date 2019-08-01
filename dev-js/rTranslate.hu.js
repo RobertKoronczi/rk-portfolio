@@ -21,9 +21,11 @@ function HU() {
 
     hu['stats'] = "Tapasztalatok"; 
 
-    de['portfolioTitle'] = "PORTFOLIO";
+    hu['portfolioTitle'] = "PORTFOLIO";
 
-    de['statsTitle'] = "TAPASZTALATOK";
+    hu['statsTitle'] = "TAPASZTALATOK";
+
+    hu['contactTitle'] = "KONTAKT"; 
     
     hu['portfolio'] = "Portfólió"; 
 
