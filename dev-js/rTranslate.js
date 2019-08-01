@@ -51,7 +51,7 @@
 
             ddlabel.forEach( function( el, i ) {
                 el.setAttribute('data-rT', 'rT');
-                el.setAttribute('caption', id[i-1]);
+                el.setAttribute('data-rT-text', id[i-1]);
             } );   
 
             // Selecting and changing the translatable contents in the DOM
@@ -59,7 +59,7 @@
 
             translatable.forEach( function( el ) { 
 
-                var translatedContent = resources[ el.getAttribute( 'caption' ) ];
+                var translatedContent = resources[ el.getAttribute( 'data-rT-text' ) ];
 
                 el.textContent = translatedContent;
                 el.setAttribute( 'data-title', translatedContent);
