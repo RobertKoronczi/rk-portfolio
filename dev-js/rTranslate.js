@@ -38,20 +38,20 @@
             var selectedID = selection.options[selection.selectedIndex].getAttribute( 'id' );
 
             var resources = languages[ selectedID ];
-
+            console.log(resources);
             var options = selectAsArray( 'option[data-rT="rT"]' );
-            
+            console.log(options);
             var id = [];
                 id = options.map( function( el ) { return el.id; } );
 
             // Add the corresponding attributes to the spans - created by the jquery.dd.js - 
-            // thet contains the list text in the languages menu
+            // that contains the list text in the languages menu
             // so that the language names in the selection menu can be changed
             var ddlabel = selectAsArray( '.ddlabel' );
-
+            console.log(ddlabel);
             ddlabel.forEach( function( el, i ) {
                 el.setAttribute('data-rT', 'rT');
-                el.setAttribute('data-rT-text', id[i-1]);
+                el.setAttribute('data-rT-text', id[i-1] || id[i]); // there is 4 ddlabel: one for the selected after pageload as well!
             } );   
 
             // Selecting and changing the translatable contents in the DOM
