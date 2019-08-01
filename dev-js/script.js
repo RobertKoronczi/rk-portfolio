@@ -147,22 +147,21 @@ $(document).ready(function(e) {
 	const nav = $("#navigation");
 	const navTop = nav.offset().top;
 
-	function stickyNavigation() {
+	$('.js--nav').waypoint(function(direction) {
 
-		const body = $("html, body");
+        const body = $("html, body");
 
-		if($(window).scrollTop() >= navTop) {
-			body.css("padding-top", nav.outerHeight() + "px");
-			body.addClass("fixedNav");
-		}
-		else {
+        if (direction == "down") {
+			body.css("padding-top", nav.outerHeight()/2 + "px");
+            body.addClass("fixedNav");
+        } else {
 			body.css("padding-top", 0);
 			body.removeClass("fixedNav");
-		}
+        }
 
-	};
-
-	$(window).on("scroll", stickyNavigation);
+    }, {
+        offset: '0px;'
+    });
 
 	// Initialize the msDropdown for the languages menu
 	try {
