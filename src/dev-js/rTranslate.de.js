@@ -13,7 +13,7 @@ function DE() {
 
     de['typed1'] = "Angestrebtes Studium:"; 
 
-    de['typed2'] = "angewandte Informatik"; 
+    de['typed2'] = "Angewandte Informatik (B.Sc.)"; 
 
     de['about'] = "Über mich"; 
 
