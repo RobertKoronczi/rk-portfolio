@@ -29,7 +29,7 @@ function DE() {
 
     de['aboutText2'] = "Ich lerne autodidaktisch und durch verschiedene Kurse Java, JavaScript, HTML und CSS in meiner Freizeit, weil mir diese Art von strukturiertes, lösungorientiertes Senken Spaß macht. Es bereitet mir große Freude durch verschiedene Aufgaben das Gelernte anzuwenden, und zu sehen, wie ich meine eigene Ideen implementieren kann.";
 
-    de['aboutText3'] = "Ich habe mich dazu entschloßen mein Berufung zum Beruf zu machen."; 
+    de['aboutText3'] = "Meine Berufung zum Beruf zu machen ist mein absolutes Ziel."; 
 
     de['skillsTitle'] = "TECHNISCHE KENNTNISSE"; 
 

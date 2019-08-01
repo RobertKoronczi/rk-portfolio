@@ -28,7 +28,7 @@ function EN() {
 
     en['aboutText2'] = "I learn autodidact and by video courses the following programming languages in my spare time: Java, JavaScript, HTML, CSS. This kind of solution-oriented, structured way of thinking is entertaining for me. It is a great pleasure for me to apply the lessons learned through different taasks and to see how I can implenent my own ideas."; 
    
-    en['aboutText3'] = "I decided to make my hobby a profession."; 
+    en['aboutText3'] = "My absolute goal is to make my vocation a profession."; 
 
     en['skillsTitle'] = "TECHNICAL SKILLS"; 
 
