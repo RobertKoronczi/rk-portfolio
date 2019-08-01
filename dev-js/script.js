@@ -184,7 +184,7 @@ $(document).ready(function(e) {
 		.addLang('en', EN())
 		.addLang('hu', HU())
 		.setLanguage('#languages');
-
+		changeTyped(rT().getTyped('#languages')[0], rT().getTyped('#languages')[1]);
 	// Languages selection changed listener
     $("#languages").change(function(){
         rT().setLanguage('#languages');
