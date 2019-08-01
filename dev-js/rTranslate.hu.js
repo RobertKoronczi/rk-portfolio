@@ -21,6 +21,10 @@ function HU() {
 
     hu['stats'] = "Tapasztalatok"; 
 
+    de['portfolioTitle'] = "PORTFOLIO";
+
+    de['statsTitle'] = "TAPASZTALATOK";
+    
     hu['portfolio'] = "Portfólió"; 
 
     hu['aboutTitle'] = "Koronczi Róbert vagyok"; 

@@ -20,6 +20,10 @@ function EN() {
 
     en['stats'] = "Stats"; 
 
+    de['portfolioTitle'] = "PORTFOLIO";
+
+    de['statsTitle'] = "STATS";
+
     en['portfolio'] = "Portfolio"; 
 
     en['aboutTitle'] = "My name is Robert Koronczi"; 
