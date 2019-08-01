@@ -21,6 +21,23 @@ $(window).on("load", function() {
 
 });
 
+function iso(selector) {
+	$(".items").isotope({
+		filter: selector,
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	});
+}
+
+window.onload = function() {
+	// this will fire after the entire page is loaded, including images
+	// Calling isotope directly after pageload with all the elements
+	iso('*');
+};
+
 // Setup plugins if the page is loaded
 $(document).ready(function(e) {
 
@@ -102,21 +119,7 @@ $(document).ready(function(e) {
 	$("[data-fancybox]").fancybox();
 
 	// setup isotope
-
-    function iso(selector) {
-        $(".items").isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 1500,
-                easing: 'linear',
-                queue: false
-            }
-        });
-    }
-
-    // Calling isotope directly after pageload with all the elements
-    iso('*');
-
+	
 	$("#filters a").click(function() {
 
 		$("#filters .current").removeClass("current");
