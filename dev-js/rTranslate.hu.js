@@ -11,9 +11,9 @@ function HU() {
 
     hu['name'] = "Koronczi Róbert";
     
-    hu['typed1'] = "Megpályázott szak:"; 
+    hu['typed1'] = '"Az abszolút célom,...'; 
 
-    hu['typed2'] = "alkalmazott informatika"; 
+    hu['typed2'] = '...hogy a hivatásomat mesterségemmé tegyem."'; 
 
     hu['about'] = "Rólam"; 
 

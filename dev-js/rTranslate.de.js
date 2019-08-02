@@ -11,9 +11,9 @@ function DE() {
 
     de['name'] = "Robert Koronczi"; 
 
-    de['typed1'] = "Angestrebtes Studium:"; 
+    de['typed1'] = '"Meine Berufung zum Beruf zu machen...'; 
 
-    de['typed2'] = "Angewandte Informatik (B.Sc.)"; 
+    de['typed2'] = '...ist mein Absolutes Ziel."'; 
 
     de['about'] = "Über mich"; 
 

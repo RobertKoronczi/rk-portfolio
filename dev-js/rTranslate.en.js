@@ -10,9 +10,9 @@ function EN() {
 
     en['name'] = "Robert Koronczi";
     
-    en['typed1'] = "intended study area:"; 
+    en['typed1'] = '"My absolute goal is...'; 
 
-    en['typed2'] = "Applied Computer Science"; 
+    en['typed2'] = '...to make my vocation to a proffession."'; 
 
     en['about'] = "About"; 
 
