@@ -48,7 +48,7 @@
             var ddlabel = selectAsArray( '.ddlabel' );
             ddlabel.forEach( function( el, i ) {
                 el.setAttribute('data-rT', 'rT');
-                el.setAttribute('data-rT-text', id[i-1] || id[i]); // there is 4 ddlabel: one for the selected after pageload as well!
+                el.setAttribute('data-rT-id', id[i-1] || id[i]); // there is 4 ddlabel: one for the selected after pageload as well!
             } );   
 
             // Selecting and changing the translatable contents in the DOM
@@ -56,7 +56,7 @@
 
             translatable.forEach( function( el ) { 
 
-                var translatedContent = resources[ el.getAttribute( 'data-rT-text' ) ];
+                var translatedContent = resources[ el.getAttribute( 'data-rT-id' ) ];
 
                 el.textContent = translatedContent;
                 el.setAttribute( 'data-title', translatedContent);
