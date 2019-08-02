@@ -66,6 +66,32 @@ function EN() {
 
     en['getInTouch'] = "GET IN TOUCH"; 
 
+
+    en['pf-1-title'] = "Portfolio-Website"
+
+    en['pf-1-text'] = "This is my portfolio-website."
+
+    en['pf-2-title'] = "Portfolio-App"
+
+    en['pf-2-text'] = "This is my portfolio app for Android."
+
+    en['pf-3-title'] = "Pig game"
+
+    en['pf-3-text'] = "This is a Java-Script based game."
+
+    en['pf-4-title'] = "Budgety"
+
+    en['pf-4-text'] = "Budgety is a Java-Script based budget calculator web-app."
+
+    en['pf-5-title'] = "Forkify"
+
+    en['pf-5-text'] = "With Forkify you can search for recipes, customize the servings, save your favorite recipes and add the ingredients to your shopping-list."
+
+    en['pf-6-title'] = "Omnifood"
+
+    en['pf-6-text'] = "This is an Html5, CSS project, with a little bit JQuery. Its about a fictive company called Omnifood. Its not an advertisement."
+
+
     en['filterAll'] = "ALL"; 
 
     en['filterApps'] = "APPS"; 

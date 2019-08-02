@@ -67,6 +67,36 @@ function HU() {
 
     hu['getInTouch'] = "KAPCSOLAT";
 
+
+
+
+    hu['pf-1-title'] = "Portfolio-Website"
+
+    hu['pf-1-text'] = "Ez a portfólió-weboldalam."
+
+    hu['pf-2-title'] = "Portfolio-App"
+
+    hu['pf-2-text'] = "Ez a portfólió-appom Androidra."
+
+    hu['pf-3-title'] = "Pig (Kockajáték)"
+
+    hu['pf-3-text'] = "Ez egy egyszerű Java-Script alapú kockajáték amit akár 2 kockával is játszhatunk."
+
+    hu['pf-4-title'] = "Budgety"
+
+    hu['pf-4-text'] = "Budgety egy egyszerű büdzsé kalkulátor-app, amelynek szintén JavaScript a lelke."
+
+    hu['pf-5-title'] = "Forkify"
+
+    hu['pf-5-text'] = "Forkify egy Javascript alapú web-app, amellyel recepteket kereshetünk ki és menthetünk el kedvencként. A fejadagok és az annak megfelelő recept-összetevők egyszerűen változtathatók, sőtt egy virtuális bevásárlólistához adhatjuk őket."
+
+    hu['pf-6-title'] = "Omnifood"
+
+    hu['pf-6-text'] = "Omnifood egy fantázia vállalkozás, amely kizárólag a webdizájn egy példájaként - és semmi esetre sem reklámként - szolgál. Ez egy Html5, CSS Project, ahol egy kis JQuery is bevetésre került."
+
+
+
+
     hu['filterAll'] = "ÖSSZES";
 
     hu['filterApps'] = "APPOK";
