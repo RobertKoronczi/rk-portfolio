@@ -58,7 +58,12 @@
 }
 
 .aboutImage {
-    max-width: 100%
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.about-text {
+    margin-top: 100px;
 }
 
 .contactSection,
@@ -98,7 +103,7 @@
 }
 
 .squareItem {
-    margin-top: 30px;
+    margin-top: 60px;
     position: relative
 }
 
@@ -146,7 +151,7 @@
     top: -40px;
     width: 40%;
     height: 60px;
-    margin-left: -20%
+    margin-left: -20%;
 }
 
 .contactButton {
@@ -193,14 +198,22 @@
 }
 
 .itemsContainer {
-    width: 100%
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
-.items {
-    padding: 0}
+.grid {
+    width: 97%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
 
-    .items a {
+    .grid a {
         width: 40px;
         height: 40px;
         background-color: #025;
@@ -212,20 +225,21 @@
         -ms-transition: all .2s linear, .3s;
         -transition: all .2s linear, .3s}
 
-    .items li {
+    .grid li {
         display: inline-block;
         padding: 5px}
 
-        .items li img {
+        .grid li img {
             width: 100%;}
 
-    .items .item {
+    .grid-item {
         position: relative;
-        display: block;
         overflow: hidden;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin: 20px;
+        margin: 15px 15px 25px 15px;
         padding: 2px;
+        width: 350px;
+
         background-color: #ccc;
         -webkit-transition: all .2s linear, 1s;
         -moz-transition: all .2s linear, 1s;
@@ -233,31 +247,30 @@
         -ms-transition: all .2s linear, 1s;
         -transition: all .2s linear, 1s}
 
-        .items .item:hover .imageOverlay {
+    .grid-item:hover .imageOverlay {
             opacity: 1}
 
-        .items .item:hover .openButton {
+    .grid-item:hover .openButton {
             left: 0}
         
-        .items .item:hover .projectLink {
+    .grid-item:hover .projectLink {
             right: 0}
 
-        .items .item:hover {
+    .grid-item:hover {
             -webkit-transform: scale(1.05, 1.05);
             -moz-transform: scale(1.05, 1.05);
             -o-transform: scale(1.05, 1.05);
             -ms-transform: scale(1.05, 1.05);
             -transform: scale(1.05, 1.05)}
 
-        .items .item .pf-description {
-            width: 100%;
-            height: 270px;
+    .grid-item .pf-description {
+            height: 250px;
             padding: 20px 10px 15px 10px;
             background-color: #e7e7e7;
             text-align: center;
         }
 
-    .items .icons {
+    .grid .icons {
         position: absolute;
         width: 90px;
         height: 40px;
@@ -267,12 +280,12 @@
         text-align: center;
         z-index: 3}
 
-        .items .icons img {
+        .grid .icons img {
             margin-top: 20%;
             width: 60%;
             height: 60%}
 
-    .items .imageOverlay {
+    .grid .imageOverlay {
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, .5);
@@ -286,11 +299,11 @@
         -ms-transition: all .2s linear, 1s;
         -transition: all .2s linear, 1s}
 
-    .items .openButton {
+    .grid .openButton {
         float: left;
         left: -200px}
 
-    .items .projectLink {
+    .grid .projectLink {
         float: right;
         right: -200px}
 

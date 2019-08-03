@@ -22,12 +22,16 @@ $(window).on("load", function() {
 });
 
 function iso(selector) {
-	$(".items").isotope({
-		filter: selector,
-		animationOptions: {
-			duration: 1500,
-			easing: 'linear',
-			queue: false
+	var $container = $('.grid');
+	// init
+	$container.isotope({
+	  // options
+	  
+	  filter: selector,
+	  masonry: {
+		columnWidth: 40,
+		isFitWidth: true,
+	  
 		}
 	});
 }
