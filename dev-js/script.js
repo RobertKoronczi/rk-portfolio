@@ -29,7 +29,7 @@ function iso(selector) {
 	  
 	  filter: selector,
 	  masonry: {
-		columnWidth: 40,
+		columnWidth: 1,
 		isFitWidth: true,
 	  
 		}
