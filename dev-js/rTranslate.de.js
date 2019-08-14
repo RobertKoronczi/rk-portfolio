@@ -31,9 +31,9 @@ function DE() {
 
     de['aboutTitle'] = "Ich heiße Robert Koronczi"; 
 
-    de['aboutText1'] = "Als ich noch die Fachmittelschule besuchte, interessierte ich mich schon für die Programmierung und wie man den Quellcode verstehen und schreiben lernt. Mich begeisterte es besonders, dass ich durch meine Kenntnisse der Sprache Pascal auch in Mathematik zu nutze machen konnte um interessante, fakultative geometrische Aufgaben zu lösen.";
+    de['aboutText1'] = "Bereits auf der Fachmittelschule interessierte ich mich schon für die Programmierung. Mich begeisterte es besonders, dass ich durch meine Kenntnisse der Sprache Pascal auch in Mathematik zu nutze machen konnte um interessante, fakultative geometrische Aufgaben zu lösen.";
 
-    de['aboutText2'] = "Ich lerne autodidaktisch und durch verschiedene Kurse Java, JavaScript, HTML und CSS in meiner Freizeit, weil mir diese Art von strukturiertes, lösungorientiertes Senken Spaß macht. Es bereitet mir große Freude durch verschiedene Aufgaben das Gelernte anzuwenden, und zu sehen, wie ich meine eigene Ideen implementieren kann.";
+    de['aboutText2'] = "Ich lerne autodidaktisch und durch verschiedene Kurse Java, JavaScript, HTML und CSS in meiner Freizeit, weil mir diese Art von strukturiertes, lösungorientiertes Denken Spaß macht. Es bereitet mir große Freude durch verschiedene Aufgaben das Gelernte anzuwenden, und zu sehen, wie ich meine eigene Ideen implementieren kann.";
 
     de['aboutText3'] = "Meine Berufung zum Beruf zu machen ist mein absolutes Ziel."; 
 
