@@ -75,23 +75,23 @@ function DE() {
 
     de['pf-2-title'] = "Portfolio-App"
 
-    de['pf-2-text'] = "Das ist mein Portfolio-App für Android."
+    de['pf-2-text'] = "Das ist meine Portfolio-App für Android."
 
     de['pf-3-title'] = "Pig (Würfelspiel)"
 
-    de['pf-3-text'] = "Pig oder Böse Eins ist ein einfaches Java-Script basiertes Würfelspiel mit einem Würfel."
+    de['pf-3-text'] = "Pig ist ein einfaches Java-Script basiertes Würfelspiel."
 
     de['pf-4-title'] = "Budgety"
 
-    de['pf-4-text'] = "Budgety ist ein einfacher Budget-Kalkulator-App, der auf Java-Script basiert."
+    de['pf-4-text'] = "Budgety ist eine einfache Budget-Kalkulator-App, die auf Java-Script basiert."
 
     de['pf-5-title'] = "Forkify"
 
-    de['pf-5-text'] = "Forkify ist ein Java-Script basiertes Web-App, mit dem man sich Recepte aussuchen und als lieblings speichern kann. Die Portionen und die entsprechende Menge der Zutaten lassen sich leicht verändern und können sogar zu einer virtuellen Einkaufsliste hingefügt werden."
+    de['pf-5-text'] = "Forkify ist eine Java-Script basierte Web-App, mit der Sie sich Rezepte aussuchen und als Lieblingsrezepte speichern können. Die Menge der Zutaten lässt sich je nach Personenzahl verändern und kann sogar zu einer virtuellen Einkaufsliste hingefügt werden."
 
     de['pf-6-title'] = "Omnifood"
 
-    de['pf-6-text'] = "Omnifood ist ein Fantasie-Unternehmenm das ausschließlich als Beispiel für Webdesign - und gar nicht als Werbung - dient. Es ist ein Html5, CSS Project wobei auch ein bisschen JQuery zum Einsatz kam."
+    de['pf-6-text'] = "Omnifood ist ein Fantasie-Unternehmen, das ausschließlich als Beispiel für Webdesign - und nicht als Werbung - dient. Es ist ein Html5, CSS, JQuery Project."
 
 
 
