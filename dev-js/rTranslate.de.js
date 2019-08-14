@@ -39,7 +39,7 @@ function DE() {
 
     de['skillsTitle'] = "TECHNISCHE KENNTNISSE"; 
 
-    de['skillsExpl'] = "Ein Representation meiner Kenntnissen nach Technologien";
+    de['skillsExpl'] = "Eine Repräsentation meiner Kenntnissen nach Technologien";
 
     de['skill1'] = "Sehr gute Kenntnisse"; 
 
